@@ -1,0 +1,71 @@
+
+#master{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#main{
+    width: 30%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 91, 91);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+#todo{
+    display: flex;
+    margin: 30px 0px;
+    width: 100%;
+    justify-content: center;
+    height: 50px;
+    gap: 10px;
+}
+
+.input{
+    width: 70%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+.btn{
+    width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+#tasks{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 10px;
+}
+.task{
+    display: flex;
+    margin: 10px 0px;
+    padding: 5px 10px;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    color: azure;
+    height: 50px;
+    background-color: rgb(149, 146, 146);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
