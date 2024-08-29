@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    padding: 20px;
+    max-width: 100%;
+    min-height: 100%;
+    height: 300px;
+    box-shadow: 0px 0px 10px 0px rgba(159, 159, 159, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.item-image{
+    min-width: 35%;
+    min-height: 80%;
+    border: 3px solid rgb(236, 148, 17);
+    border-radius: 5px;
+    margin-right: 10px;
+
+}
+.item-info{
+    min-width: 63%;
+    min-height: 80%;
+}
+.item-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 2px solid rgb(89, 88, 87);
+    text-transform: capitalize;
+}
+.item-header>h4{
+    color: rgb(236, 148, 17);
+}
+
+.item-desc{
+    color: rgb(89, 88, 87);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        min-width: 100%;
+        height: 50px;
+        margin-bottom: 50px;
+}
+
+#nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+   min-width: 100%;
+   height: 50px;
+  
+}
+#underline{
+    width: 5%;
+    padding: 1px;
+    background-color: rgb(236, 148, 17);
+    margin-bottom: 15px;
+}
+ #filter-btn-1, #filter-btn-2, #filter-btn-3, #filter-btn-0{
+    margin-right: 22px;
+    font-weight: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(236, 148, 17);
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul {
+    list-style-type: none; /* Remove bullet points */
+    padding-left: 0; /* Remove default padding */
+    margin-left: 0;  /* Remove default margin */
+}
